@@ -15,57 +15,222 @@
 </head>
 <body>
     
-    <section class="cart">
-        <div class="container">
-            <div class="row">
-                <div class="cart-item shadow p-3 w-100">
-                    <div class="order d-flex  w-100" id="order">
-                        <div class="order-menu d-flex w-100 align-items-center justify-content-between">
-                            <div class="order-products d-flex"><p class="fw-bolder">سبد خرید شما <p class="text-muted">(2 کالا)</p></p></div>
-                            <div class="order-items d-flex align-items-center justify-content-between">
-                                <div class="order-items-order d-flex">
-                                    <p>1</p>
-                                    <p>ثیت سفارش</p>
-                                    <p>--------</p>
-                                </div>
-                                <div class="order-items-address d-flex">
-                                    <p>2</p>
-                                    <p>انتخاب آدرس</p>
-                                    <p>--------</p>
-                                </div>
-                                <div class="order-items-payment d-flex">
-                                    <p>3</p>
-                                    <p>پرداخت</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="order-product">
-                            <div class="product-item">
-                                <div class="product-item-r d-flex">
-                                    <div class="product-img border"><img src="images/cofee.jpg" alt=""></div>
-                                    <div class="product-title">
-                                        <p class="fw-bolder">آنی سفر</p>
-                                        <div class="product-number d-flex">
-                                            <p class="text-muted p-1 border">+</p>
-                                            <p class="p-1 border">1</p>
-                                            <p class="text-muted p-1 border">-</p>
+    <div class="cart-product">
+        <div class="cart-product-item">
+            <section class="cart mt-4 item cart-active">
+                <div class="container">
+                    <div class="row">
+                        <div class="cart-item shadow p-3 w-100">
+                            <div class="order  w-100" id="order">
+                                <div class="order-menu d-flex w-100 align-items-center justify-content-between">
+                                    <div class="order-products"><p class="fw-bolder">سبد خرید شما <p class="text-muted">(2 کالا)</p></p></div>
+                                    <div class="order-items d-flex align-items-center justify-content-between">
+                                        <div class="order-items-order p-1 d-flex">
+                                            <p class="order-items-order-number">1</p>
+                                            <p class="order-items-order-text">ثبت سفارش</p>
+                                            <p class="order-items-order-dashed">--------</p>
+                                        </div>
+                                        <div class="order-items-address p-1 d-flex">
+                                            <p class="order-items-address-number">2</p>
+                                            <p class="order-items-address-text">انتخاب آدرس</p>
+                                            <p class="order-items-address-dashed">--------</p>
+                                        </div>
+                                        <div class="order-items-payment p-1 d-flex">
+                                            <p class="order-items-payment-number">3</p>
+                                            <p class="order-items-payment-text">پرداخت</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="product-item-l"></div>
+                                <div class="order-productss"><p class="fw-bolder">سبد خرید شما <p class="text-muted">(2 کالا)</p></p></div>
+                                <div class="order-product">
+                                    <div class="product-item border p-2 d-flex align-items-center justify-content-between">
+                                        <div class="product-item-r d-flex align-items-center">
+                                            <div class="product-img border p-1"><img src="images/cofee.jpg" alt=""></div>
+                                            <div class="product-title">
+                                                <p class="fw-bolder">آنی سفر</p>
+                                                <div class="product-number d-flex">
+                                                    <p class=" product-number-item text-muted">+</p>
+                                                    <p class=" product-number-item">1</p>
+                                                    <p class=" product-number-item text-muted">-</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item-l">
+                                            <div class="product-price p-2 position-relative d-flex align-items-end">
+                                                <p class="fw-normal product-price-price">49,000 تومان</p>
+                                                <i class="fas fa-trash text-muted"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item border p-2 d-flex align-items-center justify-content-between">
+                                        <div class="product-item-r d-flex align-items-center">
+                                            <div class="product-img border p-1"><img src="images/hot.jpeg" alt=""></div>
+                                            <div class="product-title">
+                                                <p class="fw-bolder">بسته جامع آنی</p>
+                                                <div class="product-number d-flex">
+                                                    <p class=" product-number-item text-muted">+</p>
+                                                    <p class=" product-number-item">1</p>
+                                                    <p class=" product-number-item text-muted">-</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item-l">
+                                            <div class="product-price p-2 position-relative d-flex  align-items-end">
+                                                <p class="fw-normal product-price-price">289,000 تومان</p>
+                                                <i class="fas fa-trash text-muted"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item border p-2 d-flex align-items-center justify-content-between">
+                                        <div class="product-item-r d-flex align-items-center">
+                                            <div class="product-img border p-1"><img src="images/love.jpg" alt=""></div>
+                                            <div class="product-title">
+                                                <p class="fw-bolder">جاکلیدی نقره ای</p>
+                                                <div class="product-number d-flex">
+                                                    <p class=" product-number-item text-muted">+</p>
+                                                    <p class=" product-number-item">1</p>
+                                                    <p class=" product-number-item text-muted">-</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-item-l">
+                                            <div class="product-price p-2 position-relative d-flex align-items-end">
+                                                <p class="fw-normal product-price-price">159,000 تومان</p>
+                                                <i class="fas fa-trash text-muted"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order-payment">
+                                    <div class="order-payment-item d-flex w-100 mt-4 align-content-center align-items-center justify-content-between">
+                                        <div class="order-payment-item-r">
+                                            <p class="text-muted">جمع سبد خرید :</p>
+                                        </div>
+                                        <div class="order-payment-item-l">
+                                            <p class="fw-bold">121,000 تومان</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order-button">
+                                    <button class="btn btn-info text-white mt-5" id="3">ثبت سفارش</button>
+                                </div>
                             </div>
                         </div>
-                        <div class="order-payment">
-
+                    </div>
+                </div>
+            </section>
+            <section class="address mt-4 item">
+                <div class="container">
+                    <div class="row">
+                        <div class="address-item shadow p-3 ">
+                            <div class="order-menu d-flex w-100 align-items-center justify-content-between">
+                                <div class="order-products"><p class="fw-bolder">آدرس تحویل سفارش خودرا وارد کنید.</p></div>
+                                <div class="address-items d-flex align-items-center justify-content-between">
+                                    <div class="order-items-order p-1 d-flex">
+                                        <p class="order-items-order-number">1</p>
+                                        <p class="order-items-order-text">ثبت سفارش</p>
+                                        <p class="order-items-order-dashed">--------</p>
+                                    </div>
+                                    <div class="address-items-address p-1 d-flex">
+                                        <p class="address-items-address-number-active">2</p>
+                                        <p class="address-items-address-text-active">انتخاب آدرس</p>
+                                        <p class="address-items-address-dashed-active">--------</p>
+                                    </div>
+                                    <div class="payment-items-address p-1 d-flex">
+                                        <p class="payment-items-address-number">3</p>
+                                        <p class="peyment-items-address-text">پرداخت</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="address-forms">
+                                <div class="order-productss"><p class="fw-bolder">آدرس تحویل سفارش خودرا وارد کنید.</p></div>
+                                <form action="" class="d-flex flex-column">
+                                    <label for="">استان<span class="text-danger">*</span></label>
+                                    <select class="border p-2 mt-1" name="استان" id="">
+                                        <option value="tehran">تهران</option>
+                                        <option value="tabriz">تبریز</option>
+                                        <option value="esfahan">اصفهان</option>
+                                    </select>
+                                    <label for="" class="mt-3">شهر<span class="text-danger">*</span></label>
+                                    <select class="border p-2 mt-1" name="شهر" id="">
+                                        <option value="tehran">تهران</option>
+                                        <option value="tabriz">تبریز</option>
+                                        <option value="esfahan">اصفهان</option>
+                                    </select>
+                                    <label for="" class="mt-3">آدرس<span class="text-danger">*</span></label>
+                                    <input class="border p-2 mt-1" type="text" name="" id="" placeholder="مثلا خیابان حبیب الله">
+                                    <label for="" class="mt-3">کدپستی<span class="text-danger">*</span></label>
+                                    <input class="border p-2 mt-1" type="text" placeholder="کدپستی 10 رقمی" name="" id="">
+                                </form>
+                                <div class="send-product d-flex align-content-center">
+                                    <i class="fas fa-telegram text-muted"></i>
+                                    <p>سفارش شما از طریق پست ارسال می شود.</p>
+                                </div>
+                                <div class="order-button">
+                                    <button class="btn btn-info text-white" id="2" onclick={next('next')}>ثبت آدرس</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="address" id="address"></div>
-                    <div class="payment" id="payment"></div>
                 </div>
-            </div>
+            </section>
+            <section class="payment mt-4 item">
+                <div class="container">
+                    <div class="row">
+                        <div class="payment-item shadow p-3">
+                            <div class="order-menu d-flex w-100 align-items-center justify-content-end">
+                                <div class="payment-items d-flex align-items-center justify-content-between">
+                                    <div class="order-items-order p-1 d-flex">
+                                        <p class="order-items-order-number">1</p>
+                                        <p class="order-items-order-text">ثبت سفارش</p>
+                                        <p class="order-items-order-dashed">--------</p>
+                                    </div>
+                                    <div class="address-items-address p-1 d-flex">
+                                        <p class="address-items-address-number-active">2</p>
+                                        <p class="address-items-address-text-active">انتخاب آدرس</p>
+                                        <p class="address-items-address-dashed-active">--------</p>
+                                    </div>
+                                    <div class="payment-items-address p-1 d-flex">
+                                        <p class="payment-items-address-number-active">3</p>
+                                        <p class="peyment-items-address-text-active">پرداخت</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="payment-item-total border-2 border  p-3">
+                                <div class="payment-total d-flex justify-content-between">
+                                    <p class="text-muted">جمع سبد خرید:</p>
+                                    <p>121,000 تومان</p>
+                                </div>
+                                <div class="payment-off d-flex justify-content-between">
+                                    <p class="text-muted">تخفیف:</p>
+                                    <p>0 تومان</p>
+                                </div>
+                                <div class="payment-send d-flex justify-content-between">
+                                    <p class="text-muted">هزینه ارسال:</p>
+                                    <p>15,000 تومان</p>
+                                </div>
+                            </div>
+                            <div class="payment-buy p-3 d-flex justify-content-between mt-2 ">
+                                <p class="text-muted">مبلغ قابل پرداخت:</p>
+                                <p class="fw-bold">136,000 تومان</p>
+                            </div>
+                            <div class="paymentgateway w-100 d-flex flex-column mt-1">
+                                <label for="" class="mt-3">درگاه پرداخت<span class="text-danger">*</span></label>
+                                <select class="mt-1 text-muted">
+                                    <option value="">انتخاب کنید</option>
+                                    <option value="">سامان</option>
+                                    <option value="">ملت</option>
+                                </select>
+                            </div>
+                            <div class="order-button mt-5">
+                                <button class="btn btn-info text-white" id="1">پرداخت</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-    </section>
-
+    </div>
 
     <script src="js/all.min.js"></script>
     <script
@@ -78,6 +243,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/scrip.js"></script>
+    <script src="./js/cart.js"></script>
 </body>
 </html>

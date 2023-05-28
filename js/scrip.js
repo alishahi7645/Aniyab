@@ -5,3 +5,4 @@ console.log(mainimg);
 mainimg.addEventListener('mouseenter', function () {
   mainhover.classList.toggle("main-hover-active");
 });
+
