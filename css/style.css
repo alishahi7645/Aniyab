@@ -123,3 +123,8 @@ li {
         display: none;
     }
 }
+
+.product-img img{
+    width: 100px;
+    height: 80px;
+}
